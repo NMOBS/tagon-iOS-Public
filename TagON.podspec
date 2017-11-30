@@ -3,10 +3,9 @@ Pod::Spec.new do |s|
 
   s.name         = "TagON"
   s.version      = "0.0.1"
-  s.summary      = "TagOn IOS SDK is an all-in-one package, advertisement management SDK that includes programmatic buying solutions and data integration. The product TagOn iOS SDK provides amazing opportunities to the publishers and some of them are targeting, interaction, various ad models and programmatic technologies in order to increase revenue."
+  s.summary      = "TagOn IOS SDK is an all-in-one package advertisement management SDK"
 
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "TagOn IOS SDK is an all-in-one package, advertisement management SDK that includes programmatic buying solutions and data integration. The product TagOn iOS SDK provides amazing opportunities to the publishers and some of them are targeting, interaction, various ad models and programmatic technologies in order to increase revenue"
 
   s.homepage     = "http://www.tagcon.co"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -19,7 +18,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -33,10 +32,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "onderozcan" => "onder@pixelblind.net" }
+  s.author             = { "onderozcan" => "onder@nativetouch.co.uk" }
   # Or just: s.author    = "onderozcan"
   # s.authors            = { "onderozcan" => "onder@pixelblind.net" }
-  # s.social_media_url   = "http://twitter.com/onderozcan"
+   s.social_media_url   = "http://twitter.com/onder"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -44,7 +43,6 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
     s.platform     = :ios, "9.0"
 
   #  When using multiple platforms

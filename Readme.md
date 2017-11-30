@@ -1,6 +1,10 @@
 # TagON iOS
 ![NSDK logo](http://tagon.co/images/tagON_logo_black.png)
 
+[![Version](https://img.shields.io/cocoapods/v/TagON.svg?style=flat)](https://cocoapods.org//pods/TagON)
+[![License](https://img.shields.io/cocoapods/l/TagON.svg?style=flat)](http://cocoapods.org/pods/TagON)
+
+
 **TagON IOS SDK** is an all-in-one package, advertisement management SDK that includes programmatic buying solutions and data integration. The product **TagON iOS SDK** provides amazing opportunities to the publishers and some of them are targeting, interaction, various ad models and programmatic technologies in order to increase revenue.
 
 * **Getting Started**
@@ -10,6 +14,12 @@
 
 	
 ## <a name="getting_started"></a> Getting Started
+### With pod
+```
+ pod 'TagON'
+```
+
+### Also you can implement the framework manually 
 
 * **Drag** the framework file "**TagON.framework**" in to your project
 * **Drag** the bundle file "**TagON.bundle**" in to your project

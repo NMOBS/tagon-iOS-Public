@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/onder"
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/NMOBS/tagon-iOS-Public.git", :tag => "#{s.version}" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "SimpleProjectTagON", "SimpleProjectTagON/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
 end

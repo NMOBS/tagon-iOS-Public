@@ -18,7 +18,6 @@
 ```
  pod 'TagON'
 ```
-
 ### Also you can implement the framework manually 
 
 * **Drag** the framework file "**TagON.framework**" in to your project

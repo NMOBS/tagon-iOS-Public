@@ -42,6 +42,14 @@ After import TagON Adapter header into Appdelegate, initialiaze TagAdapter share
 }
 
 ```
+
+###You can also run TagAdapter on test environment for displaying test ad every single request.:
+
+```
+    [TagAdapter setTest:YES];
+
+```
+
 # AD Integration
 ### <a name="implementation"></a> Fullpage
 

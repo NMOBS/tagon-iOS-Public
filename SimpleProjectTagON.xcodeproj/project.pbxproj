@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		5B014F871FCB36CD00ECACF2 /* tagonAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B014F851FCB36CD00ECACF2 /* tagonAssets.bundle */; };
 		5B01504A1FCBEBE900ECACF2 /* TagON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0150491FCBEBE900ECACF2 /* TagON.framework */; };
-		5BF675EF1FC89C2B0016E5BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF675EE1FC89C2B0016E5BC /* AppDelegate.m */; };
-		5BF675F21FC89C2B0016E5BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF675F11FC89C2B0016E5BC /* ViewController.m */; };
-		5BF675F51FC89C2B0016E5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF675F31FC89C2B0016E5BC /* Main.storyboard */; };
-		5BF675F71FC89C2B0016E5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF675F61FC89C2B0016E5BC /* Assets.xcassets */; };
-		5BF675FA1FC89C2B0016E5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF675F81FC89C2B0016E5BC /* LaunchScreen.storyboard */; };
-		5BF675FD1FC89C2B0016E5BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF675FC1FC89C2B0016E5BC /* main.m */; };
 		5BF676071FC89C2C0016E5BC /* SimpleProjectTagONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF676061FC89C2C0016E5BC /* SimpleProjectTagONTests.m */; };
 		5BF676121FC89C2C0016E5BC /* SimpleProjectTagONUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF676111FC89C2C0016E5BC /* SimpleProjectTagONUITests.m */; };
 /* End PBXBuildFile section */
@@ -41,15 +35,6 @@
 		5B014F8B1FCB37E500ECACF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B0150491FCBEBE900ECACF2 /* TagON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TagON.framework; sourceTree = "<group>"; };
 		5BF675EA1FC89C2B0016E5BC /* SimpleProjectTagON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProjectTagON.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BF675ED1FC89C2B0016E5BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5BF675EE1FC89C2B0016E5BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5BF675F01FC89C2B0016E5BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5BF675F11FC89C2B0016E5BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5BF675F41FC89C2B0016E5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5BF675F61FC89C2B0016E5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5BF675F91FC89C2B0016E5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5BF675FB1FC89C2B0016E5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BF675FC1FC89C2B0016E5BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BF676021FC89C2C0016E5BC /* SimpleProjectTagONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleProjectTagONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF676061FC89C2C0016E5BC /* SimpleProjectTagONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleProjectTagONTests.m; sourceTree = "<group>"; };
 		5BF676081FC89C2C0016E5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,15 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				5B014F851FCB36CD00ECACF2 /* tagonAssets.bundle */,
-				5BF675ED1FC89C2B0016E5BC /* AppDelegate.h */,
-				5BF675EE1FC89C2B0016E5BC /* AppDelegate.m */,
-				5BF675F01FC89C2B0016E5BC /* ViewController.h */,
-				5BF675F11FC89C2B0016E5BC /* ViewController.m */,
-				5BF675F31FC89C2B0016E5BC /* Main.storyboard */,
-				5BF675F61FC89C2B0016E5BC /* Assets.xcassets */,
-				5BF675F81FC89C2B0016E5BC /* LaunchScreen.storyboard */,
-				5BF675FB1FC89C2B0016E5BC /* Info.plist */,
-				5BF675FC1FC89C2B0016E5BC /* main.m */,
 			);
 			path = SimpleProjectTagON;
 			sourceTree = "<group>";
@@ -255,10 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF675FA1FC89C2B0016E5BC /* LaunchScreen.storyboard in Resources */,
-				5BF675F71FC89C2B0016E5BC /* Assets.xcassets in Resources */,
 				5B014F871FCB36CD00ECACF2 /* tagonAssets.bundle in Resources */,
-				5BF675F51FC89C2B0016E5BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF675F21FC89C2B0016E5BC /* ViewController.m in Sources */,
-				5BF675FD1FC89C2B0016E5BC /* main.m in Sources */,
-				5BF675EF1FC89C2B0016E5BC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,25 +289,6 @@
 			targetProxy = 5BF6760E1FC89C2C0016E5BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5BF675F31FC89C2B0016E5BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BF675F41FC89C2B0016E5BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5BF675F81FC89C2B0016E5BC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BF675F91FC89C2B0016E5BC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5BF676141FC89C2C0016E5BC /* Debug */ = {

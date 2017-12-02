@@ -16,5 +16,7 @@
 //Fetch publisherID
 +(NSString *)getPublisherID;
 +(NSString *)getContentURL;
-
+//For test environment, setTest true.
++(void)setTest:(BOOL)test;
++(BOOL)isTest;
 @end

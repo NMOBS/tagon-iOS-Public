@@ -23,10 +23,13 @@
 @end
 
 @interface TagFullPageImageView : UIViewController<UIGestureRecognizerDelegate>
-
--(id)initWithInventoryID:(NSString *)invID andAdUnitID:(NSString *)adUnitID andContentUrl:(NSString *)contentURL;
--(void)setViewController:(UIViewController *)vc;
 @property (nonatomic, weak) id<TagFullPageImageViewDelegate> delegate;
+
+-(id)initWithInventoryID:(NSString *)invID andAdUnitID:(NSString *)adUnitID andContentUrl:(NSString *)contentURL;//Old
+
+-(id)initWithAdUnitID:(NSString *)adunit_id andContentUrl:(NSString *)contentURL;
+
+-(void)setViewController:(UIViewController *)vc;
 
 +(NSString *)getContentURL;
 

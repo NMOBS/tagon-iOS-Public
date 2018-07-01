@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B014F871FCB36CD00ECACF2 /* tagonAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B014F851FCB36CD00ECACF2 /* tagonAssets.bundle */; };
-		5B01504A1FCBEBE900ECACF2 /* TagON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0150491FCBEBE900ECACF2 /* TagON.framework */; };
+		5BADE6C120E8F96E00F92CC1 /* TagON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BADE6C020E8F96E00F92CC1 /* TagON.framework */; };
 		5BF676071FC89C2C0016E5BC /* SimpleProjectTagONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF676061FC89C2C0016E5BC /* SimpleProjectTagONTests.m */; };
 		5BF676121FC89C2C0016E5BC /* SimpleProjectTagONUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF676111FC89C2C0016E5BC /* SimpleProjectTagONUITests.m */; };
 /* End PBXBuildFile section */
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		5B014F851FCB36CD00ECACF2 /* tagonAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = tagonAssets.bundle; sourceTree = SOURCE_ROOT; };
 		5B014F8B1FCB37E500ECACF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5B0150491FCBEBE900ECACF2 /* TagON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TagON.framework; sourceTree = "<group>"; };
+		5BADE6C020E8F96E00F92CC1 /* TagON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TagON.framework; sourceTree = "<group>"; };
 		5BF675EA1FC89C2B0016E5BC /* SimpleProjectTagON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProjectTagON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF676021FC89C2C0016E5BC /* SimpleProjectTagONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleProjectTagONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF676061FC89C2C0016E5BC /* SimpleProjectTagONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleProjectTagONTests.m; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B01504A1FCBEBE900ECACF2 /* TagON.framework in Frameworks */,
+				5BADE6C120E8F96E00F92CC1 /* TagON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 		5B8BA7781FC89D11003048DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B0150491FCBEBE900ECACF2 /* TagON.framework */,
+				5BADE6C020E8F96E00F92CC1 /* TagON.framework */,
 				5B014F8B1FCB37E500ECACF2 /* UIKit.framework */,
 			);
 			name = Frameworks;

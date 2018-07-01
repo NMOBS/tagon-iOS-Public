@@ -10,11 +10,12 @@
 
 @interface TagAdapter : NSObject
 +(TagAdapter *)sharedManager;
--(void)initWithPublisherID:(NSString *)pubID;
+-(void)initWithPublisherID:(NSString *)pubID inventoryID:(NSString *)invID;
 +(BOOL)adapterIsReady;
 //UserData when it's ready to collect.
 //Fetch publisherID
 +(NSString *)getPublisherID;
++(NSString *)getInvID;
 +(NSString *)getContentURL;
 //For test environment, setTest true.
 +(void)setTest:(BOOL)test;

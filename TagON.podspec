@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TagON"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "TagOn IOS SDK is an all-in-one package advertisement management SDK"
 
   s.description  = "TagOn IOS SDK is an all-in-one package, advertisement management SDK that includes programmatic buying solutions and data integration. The product TagOn iOS SDK provides amazing opportunities to the publishers and some of them are targeting, interaction, various ad models and programmatic technologies in order to increase revenue"

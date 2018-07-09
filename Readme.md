@@ -29,12 +29,16 @@ In your **appDelegate** import TagON adapter class :
  #import <TagON/TagAdapter.h>
 ```
 
-After import TagON Adapter header into Appdelegate, initialiaze TagAdapter sharedManeger with your PublisherID and the Inventory ID that given by TagON
+After import TagON Adapter header into Appdelegate, initialiaze TagAdapter sharedManeger with your PublisherID and the Inventory ID that given by TagON. 
+
+Also you may want to set **default**-content-**URL** instead of request ad in **non-relational** UI (Like: Mainpage or any other non-content relational screens.)
 
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     [[TagAdapter sharedManager] initWithPublisherID:@"#publisherID#" inventoryID:@"#inventoryID#"];
+    
+    [TagAdapter setDefaultContentURL:@"https://www.nmobs.com"];
 
 	return YES;
 }
@@ -63,8 +67,6 @@ In your viewWillAppear or your custom method right after a View Controller has b
         
     tagBanner.delegate = self;
     
-    [tagBanner setViewController:self];
-
 ```
 
  **Delegation**

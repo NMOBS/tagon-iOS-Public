@@ -5,12 +5,10 @@
 //  Created by Önder ÖZCAN on 31/05/2017.
 //  Copyright © 2017 pixelblind. All rights reserved.
 //
-
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+@import UIKit;
+#import "TagAdapter.h"
 
 @class TagFullPageImageView;
-
 @protocol TagFullPageImageViewDelegate <NSObject>
 
 @optional
@@ -25,11 +23,7 @@
 @interface TagFullPageImageView : UIViewController<UIGestureRecognizerDelegate>
 @property (nonatomic, weak) id<TagFullPageImageViewDelegate> delegate;
 
--(id)initWithInventoryID:(NSString *)invID andAdUnitID:(NSString *)adUnitID andContentUrl:(NSString *)contentURL;//Old
-
 -(id)initWithAdUnitID:(NSString *)adunit_id andContentUrl:(NSString *)contentURL;
-
--(void)setViewController:(UIViewController *)vc;
 
 +(NSString *)getContentURL;
 

@@ -13,11 +13,16 @@
 -(void)initWithPublisherID:(NSString *)pubID inventoryID:(NSString *)invID;
 +(BOOL)adapterIsReady;
 //UserData when it's ready to collect.
+
 //Fetch publisherID
 +(NSString *)getPublisherID;
 +(NSString *)getInvID;
-+(NSString *)getContentURL;
+
+//Default Content URL
++(void)setDefaultContentURL:(NSString *)defaultURL;
++(NSString *)getDefaultContentURL;
 //For test environment, setTest true.
+
 +(void)setTest:(BOOL)test;
 +(BOOL)isTest;
 @end

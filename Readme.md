@@ -94,7 +94,7 @@ When declaring TagFullPageImageView, set delegate self.
 ```
 
 ```
--(void)AdvertisementLoaded:(NSInteger)bannerTag{  
+-(void)AdvertisementLoaded{  
     NSLog(@"Advertisement Loaded Successfull");
 }
 ```

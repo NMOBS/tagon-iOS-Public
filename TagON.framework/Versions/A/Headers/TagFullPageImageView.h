@@ -2,8 +2,7 @@
 //  TagFullPageImageView.h
 //  TagON
 //
-//  Created by Önder ÖZCAN on 31/05/2017.
-//  Copyright © 2017 pixelblind. All rights reserved.
+//  Created by Önder ÖZCAN on 2018
 //
 @import UIKit;
 #import "TagAdapter.h"
@@ -13,7 +12,7 @@
 
 @optional
 #pragma mark if advertisement loaded successfull this method will be fire.
-- (void)AdvertisementLoaded:(NSInteger)bannerTag;
+- (void)AdvertisementLoaded;
 
 #pragma mark if advertisement coud not loaded this method will be fire.
 - (void)AdvertisementLoadFailed;

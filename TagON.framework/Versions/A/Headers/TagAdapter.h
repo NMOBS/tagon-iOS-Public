@@ -2,9 +2,9 @@
 //  TagAdapter.h
 //  TagON
 //
-//  Created by Önder ÖZCAN on 24/05/2017.
-//  Copyright © 2017 NMOBS. All rights reserved.
-//
+//  Created by Önder ÖZCAN.
+//  Copyright © 2018 NMOBS. All rights reserved.
+//  Version 0.010
 
 #import <Foundation/Foundation.h>
 

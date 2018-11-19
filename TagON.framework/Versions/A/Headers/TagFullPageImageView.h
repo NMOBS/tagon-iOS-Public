@@ -23,8 +23,8 @@
 @property (nonatomic, weak) id<TagFullPageImageViewDelegate> delegate;
 
 -(id)initWithAdUnitID:(NSString *)adunit_id andContentUrl:(NSString *)contentURL;
-
+-(BOOL)isAdvertisementReady;
+-(void)displayAd;
 +(NSString *)getContentURL;
-
 
 @end

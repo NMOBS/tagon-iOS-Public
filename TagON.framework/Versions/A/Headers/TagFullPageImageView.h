@@ -25,6 +25,8 @@
 -(id)initWithAdUnitID:(NSString *)adunit_id andContentUrl:(NSString *)contentURL;
 -(BOOL)isAdvertisementReady;
 -(void)displayAd;
+-(void)displayAdWithReferenceViewController:(UIViewController *)vc;
+
 +(NSString *)getContentURL;
 
 @end
